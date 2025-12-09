@@ -71,13 +71,6 @@ class e_change_algorithm(solve):
         super().update(p,tempres)
         self.scorelist[p] += tempres
 
-class ucb(solve):
-    def __init__(self,p,laohuji):
-        super().__init__(laohuji)
-        self.laohuji = laohuji
-        self.p = p
-        self.ulist = np.full(n,ma)
-
         
 
         
